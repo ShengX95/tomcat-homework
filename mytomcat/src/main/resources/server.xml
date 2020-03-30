@@ -1,0 +1,15 @@
+<server>
+    <executor/>
+    <connector port="8080"/>
+    <engine>
+        <host name="localhost:8080" appBase="F:\JAVA\workspace\mytomcat\src\webapps\">
+            <context docBase="myapp1" path="/myapp1"/>
+            <context docBase="myapp2" path="/myapp2"/>
+        </host>
+
+<!--        <host name="localhost" appBase="webapps">-->
+<!--            <context docBase="myapp3" path="/myapp3"/>-->
+<!--            <context docBase="myapp4" path="/myapp4"/>-->
+<!--        </host>-->
+    </engine>
+</server>

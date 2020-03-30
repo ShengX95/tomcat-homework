@@ -1,0 +1,6 @@
+<servlets>
+    <servlet>
+        <servlet-name>com.sx.servlet.MyServlet</servlet-name>
+        <servlet-mapping>/</servlet-mapping>
+    </servlet>
+</servlets>
